@@ -1,4 +1,4 @@
-/* command.cc - Command Class 
+/* command.cc - Command Class
  *
  * This file contains functions related to execution and generation of commands
  * and hence, in a sense, the crux of the shell project
