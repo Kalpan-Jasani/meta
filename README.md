@@ -2,9 +2,9 @@
 ## Honeywell Momentum Project
 Collaborated in a front end team for Warehouse Management Systems (Momentum WES, Intelligrated, Honeywell)
 
-![delete inventory demo] (https://github.com/Kalpan-Jasani/meta/blob/master/Honeywell/delete-inventory.jpg)
+![delete inventory demo](https://github.com/Kalpan-Jasani/meta/blob/master/Honeywell/delete-inventory.jpg)
 
-![graphQL demo] (https://github.com/Kalpan-Jasani/meta/blob/master/Honeywell/momentum-graphql-demo.jpg)
+![graphQL demo](https://github.com/Kalpan-Jasani/meta/blob/master/Honeywell/momentum-graphql-demo.jpg)
 
 ## Charles River Development automation project
 Built an automation web application in Django to support two teams in Charles River Development
