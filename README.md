@@ -19,9 +19,7 @@ A CLI shell built using C/C++
 [sample code](https://github.com/Kalpan-Jasani/meta/blob/master/shell/command.cc?ts=4)
 
 ### HTTP(s) Web server
-A vanilla web server running using C/C++
-
-[sample code](https://github.com/Kalpan-Jasani/meta/blob/master/webserver/parser.cc?ts=4)
+A vanilla web server running using C/C++ [sample code](https://github.com/Kalpan-Jasani/meta/blob/master/webserver/parser.cc?ts=4)
 
 ### Xinu caching
 #### What is interesting
