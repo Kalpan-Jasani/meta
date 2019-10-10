@@ -44,15 +44,15 @@ void Command::insertSimpleCommand( SimpleCommand * simpleCommand ) {
  */
 void Command::io_in_file(std::string * fileName)
 {
-	if(_inFile != NULL)
-	{
+	/* if input file is previously set */
+	if(_inFile != NULL) {
 		fprintf(stderr, "Ambiguous input redirect.\n");
 		return;
 	}
+
 	_inFile = new std::string(fileName->c_str());
 	fdCommand[0] = open(fileName->c_str(), O_RDONLY);
-	if(fdCommand[0] == -1)
-	{
+	if(fdCommand[0] == -1) {
 		fprintf(stderr, "Could not open file %s, using standard input\n", fileName->c_str());
 		delete _inFile;
 		_inFile = NULL;
@@ -110,8 +110,7 @@ void Command::io_out_file(int code, std::string * fileName, bool append)
 		fd = open(fileName->c_str(), O_WRONLY | O_CREAT,0600);
 
         /* if failed to open file */
-		if(fd == -1)
-		{
+		if(fd == -1) {
 			fprintf(stderr, "Could not open file: %s\n", fileName->c_str());
             return;
 		}
