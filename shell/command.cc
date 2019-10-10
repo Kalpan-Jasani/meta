@@ -79,7 +79,7 @@ void Command::io_out_file(int code, std::string * fileName, bool append)
 
     /* sanity checks */
 
-    /* if for output and there is a previous out file already set
+    /* if for output and there is a previous out file already set */
 	if(code == 1 && _outFile != NULL) {
         /* 
          * print an error to stderr and return. This would still use the old
